@@ -18,8 +18,8 @@ public class DeptDao {
 	public DeptDao() {
 		MysqlDataSource ds = new MysqlDataSource();
 		ds.setURL("jdbc:mysql://localhost:3306/lecture");
-		ds.setUser("root");
-		ds.setPassword("1234");
+		ds.setUser("scott");
+		ds.setPassword("tiger");
 		dataSource=ds;
 	}
 	
