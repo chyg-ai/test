@@ -1,3 +1,6 @@
+CREATE DATABASE lecture;
+USE lecture;
+
 -- MySQL equivalent of Oracle SCOTT default schema.
 -- (datatypes are different but should generally be equivalent)
 --
